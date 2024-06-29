@@ -1,0 +1,8 @@
+fastapi==0.111.0
+passlib==1.7.4
+protobuf==5.27.2
+psycopg2_binary==2.9.9
+pydantic==2.7.4
+PyJWT==2.8.0
+PyJWT==2.8.0
+SQLAlchemy==2.0.25
