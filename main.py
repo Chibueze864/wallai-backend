@@ -303,3 +303,7 @@ async def analyze_finances_route(
     except Exception as e:
         logging.error(f"Error in analyze_finances_route: {str(e)}", exc_info=True)
         raise HTTPException(status_code=500, detail=f"Error analyzing finances: {str(e)}")
+
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run(app, host="0.0.0.0", port=8000, log_level="debug")
